@@ -2,8 +2,7 @@ from web3 import Web3
 
 # Connect to Infura
 w3 = Web3(Web3.HTTPProvider(
-    'https://mainnet.infura.io/v3/177575bd62614fc69e6e60bec0e1867f'))
-
+    'https://mainnet.infura.io/v3/Your-Infura-Project-Id'))
 
 # Get the latest block
 latest_block = w3.eth.block_number
